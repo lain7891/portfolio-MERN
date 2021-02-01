@@ -24,24 +24,19 @@ const Navbar = () => {
             <div id="navbarBasicExample" className="navbar-menu">
               <div className="navbar-start">
                 {/* <a className="navbar-item">Home</a> */}
-  <Link to="Home" className="navbar-item title is-1">Estefania Lupo</Link>
+  <Link to="Home" className="navbar-item title is-1">Tutor Hub</Link>
   
   </div>
   
   <div className="navbar-end">
   
                 {/* <a className="navbar-item">Documentation</a> */}
-                <NavLink to="Projects" className="navbar-item title is-3" activeClassName="active">Projects</NavLink>
-                <NavLink to="Contact" className="navbar-item title is-3" activeClassName="active">Contact</NavLink>
+                <NavLink to="Projects" className="navbar-item title is-3" activeClassName="active">Resources</NavLink>
+                <NavLink to="Contact" className="navbar-item title is-3" activeClassName="active">Log In</NavLink>
                 <div className="navbar-item has-dropdown is-hoverable">
-                  <a className="navbar-link title is-3">Info</a>
+               
   
-                  <div className="navbar-dropdown subtitle is-5">
-                    <a className="navbar-item" href="https://github.com/lain7891">GitHub</a>
-                    <a className="navbar-item" href="https://www.linkedin.com/in/estefania-lupo/">LinkedIn</a>
-                    <hr className="navbar-divider" />
-                    {/* <a className="navbar-item">Phone # 678-793-3025</a> */}
-                  </div>
+                
                 </div>
               </div>
             </div>

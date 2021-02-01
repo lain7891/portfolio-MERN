@@ -16,9 +16,9 @@ function App() {
   }, []);
   return (
     <div className="App">
-          <Navbar />
+       
       <Router basename="/">
-    
+      <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/Resources" component={Resources} />
         <Route exact path="/LearnMore" component={LearnMore} />
